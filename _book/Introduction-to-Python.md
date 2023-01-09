@@ -32,16 +32,26 @@
 <li>Add another line of code to the Python script on the top-right (not in the Shell): <code>print(7 + 10)</code>.</li>
 <li>Hit <em>Submit Answer</em> to execute the Python script and receive feedback.</li>
 <div>
-```{python}
+
+```python
 # Example, do not modify!
 print(5 / 8)
+```
+
+```
+## 0.625
 ```
 </div>
 
 <div>
-```{python}
+
+```python
 # Put code below here
 print(7 + 10)
+```
+
+```
+## 17
 ```
 </div>
 
@@ -76,15 +86,25 @@ print(7 + 10)
 
 </div>
 <div>
-```{python}
+
+```python
 # Division
 print(5 / 8)
 ```
+
+```
+## 0.625
+```
 </div>
 <div>
-```{python}
+
+```python
 # Addition
 print(7 + 10)
+```
+
+```
+## 17
 ```
 </div>
 
@@ -112,25 +132,68 @@ print(7 + 10)
 </div>
 
 <div>
-```{python}
+
+```python
 # Addition, subtraction
 print(5 + 5)
+```
+
+```
+## 10
+```
+
+```python
 print(5 - 5)
 ```
-</div>
-<div>
-```{python}
-# Multiplication, division, modulo, and exponentiation
-print(3 * 5)
-print(10 / 2)
-print(18 % 7)
-print(4 ** 2)
+
+```
+## 0
 ```
 </div>
 <div>
-```{python}
+
+```python
+# Multiplication, division, modulo, and exponentiation
+print(3 * 5)
+```
+
+```
+## 15
+```
+
+```python
+print(10 / 2)
+```
+
+```
+## 5.0
+```
+
+```python
+print(18 % 7)
+```
+
+```
+## 4
+```
+
+```python
+print(4 ** 2)
+```
+
+```
+## 16
+```
+</div>
+<div>
+
+```python
 # How much is your $100 worth after 7 years?
 print(100 * 1.1 ** 7)
+```
+
+```
+## 194.87171000000012
 ```
 </div>
 <p class="">Time for another video!</p>
@@ -153,12 +216,17 @@ print(100 * 1.1 ** 7)
 <li>Create a variable <code>savings</code> with the value 100.</li>
 
 <li>Check out this variable by typing <code>print(savings)</code> in the script.</li>
-```{python}
+
+```python
 # Create a variable savings
 savings = 100
 
 # Print out savings
 print(savings)
+```
+
+```
+## 100
 ```
 
 <p class="">Great! Let's try to do some calculations with this variable now!</p>
@@ -178,7 +246,8 @@ print(savings)
 <li>Create a variable, <code>result</code>, equal to the amount of money you saved after <code>7</code> years. </li>
 
 <li>Print out the value of <code>result</code>.</li>
-```{python}
+
+```python
 # Create a variable growth_multiplier
 growth_multiplier = 1.1
 
@@ -187,6 +256,10 @@ result = savings * growth_multiplier ** 7
 
 # Print out result
 print(result)
+```
+
+```
+## 194.87171000000012
 ```
 
 <p class="">Great!</p>
@@ -214,7 +287,8 @@ print(result)
 <li>Create a new string, <code>desc</code>, with the value <code>"compound interest"</code>.</li>
 
 <li>Create a new boolean, <code>profitable</code>, with the value <code>True</code>.</li>
-```{python}
+
+```python
 # Create a variable desc
 desc = "compound interest"
 
@@ -239,20 +313,31 @@ profitable = True
 </div>
 
 <div>
-```{python}
+
+```python
 # edited/added
 a=194.87171000000012
 b='True'
 ```
 </div>
 <div>
-```{python}
+
+```python
 type(a)
+```
+
+```
+## <class 'float'>
 ```
 </div>
 <div>
-```{python}
+
+```python
 type(b)
+```
+
+```
+## <class 'str'>
 ```
 </div>
 
@@ -283,7 +368,8 @@ type(b)
 
 <li>Print out <code>doubledesc</code>. Did you expect this?</li>
 <div>
-```{python}
+
+```python
 # edited/added
 savings = 100
 growth_multiplier = 1.1
@@ -295,14 +381,23 @@ year1 = savings * growth_multiplier
 # Print the type of year1
 print(type(year1))
 ```
+
+```
+## <class 'float'>
+```
 </div>
 <div>
-```{python}
+
+```python
 # Assign sum of desc and desc to doubledesc
 doubledesc = desc + desc
 
 # Print out doubledesc
 print(doubledesc)
+```
+
+```
+## compound interestcompound interest
 ```
 
 <p class="">Nice. Notice how <code>desc + desc</code> causes <code>"compound interest"</code> and <code>"compound interest"</code> to be pasted together.</p>
@@ -326,7 +421,8 @@ print(doubledesc)
 
 <li>Convert the variable <code>pi_string</code> to a float and store this float as a new variable, <code>pi_float</code>.</li>
 <div>
-```{python}
+
+```python
 # Definition of savings and result
 savings = 100
 result = 100 * 1.10 ** 7
@@ -341,9 +437,14 @@ result = 100 * 1.10 ** 7
 # Fix the printout
 print("I started with $" + str(savings) + " and now have $" + str(result) + ". Awesome!")
 ```
+
+```
+## I started with $100 and now have $194.87171000000012. Awesome!
+```
 </div>
 <div>
-```{python}
+
+```python
 # Definition of pi_string
 pi_string = "3.1415926"
 
@@ -391,7 +492,8 @@ my_list = ["my", "list", a, b]
 <li>Create a list, <code>areas</code>, that contains the area of the hallway (<code>hall</code>), kitchen (<code>kit</code>), living room (<code>liv</code>), bedroom (<code>bed</code>) and bathroom (<code>bath</code>), in this order. Use the predefined variables.</li>
 
 <li>Print <code>areas</code> with the <a href="https://docs.python.org/3/library/functions.html#print"><code>print()</code></a> function.</li>
-```{python}
+
+```python
 # Area variables (in square meters)
 hall = 11.25
 kit = 18.0
@@ -403,6 +505,10 @@ bath = 9.50
 areas = [hall, kit, liv, bed, bath]
 
 print(areas)
+```
+
+```
+## [11.25, 18.0, 20.0, 10.75, 9.5]
 ```
 
 <p class="">Nice! A list is way better here, isn't it?</p>
@@ -419,7 +525,8 @@ print(areas)
 <li>Finish the code that creates the <code>areas</code> list. Build the list so that the list first contains the name of each room as a string and then its area. In other words, add the strings <code>"hallway"</code>, <code>"kitchen"</code> and <code>"bedroom"</code> at the appropriate locations.</li>
 
 <li>Print <code>areas</code> again; is the printout more informative this time?</li>
-```{python}
+
+```python
 # area variables (in square meters)
 hall = 11.25
 kit = 18.0
@@ -432,6 +539,10 @@ areas = ["hallway", hall, "kitchen", kit, "living room", liv, "bedroom", bed, "b
 
 # Print areas
 print(areas)
+```
+
+```
+## ['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0, 'bedroom', 10.75, 'bathroom', 9.5]
 ```
 
 <p class="">Nice! This list contains both strings and floats, but that's not a problem for Python!</p>
@@ -471,7 +582,8 @@ C. <code>[1 + 2, "a" * 5, 3]</code></p>
 
 <li>Print out the type of <code>house</code>. Are you still dealing with a list?</li>
 <div>
-```{python}
+
+```python
 # area variables (in square meters)
 hall = 11.25
 kit = 18.0
@@ -489,11 +601,20 @@ house = [["hallway", hall],
 # Print out house
 print(house)
 ```
+
+```
+## [['hallway', 11.25], ['kitchen', 18.0], ['living room', 20.0], ['bedroom', 10.75], ['bathroom', 9.5]]
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out the type of house
 print(type(house))
+```
+
+```
+## <class 'list'>
 ```
 </div>
 <p class="">Great! Get ready to learn about list subsetting!</p>
@@ -520,24 +641,39 @@ x[-3] # same result!
 
 <li>Select the number representing the area of the living room (<code>20.0</code>) and print it out.</li>
 <div>
-```{python}
+
+```python
 # Create the areas list
 areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
 
 # Print out second element from areas
 print(areas[1])
 ```
-</div>
-<div>
-```{python}
-# Print out last element from areas
-print(areas[-1])
+
+```
+## 11.25
 ```
 </div>
 <div>
-```{python}
+
+```python
+# Print out last element from areas
+print(areas[-1])
+```
+
+```
+## 9.5
+```
+</div>
+<div>
+
+```python
 # Print out the area of the living room
 print(areas[5])
+```
+
+```
+## 20.0
 ```
 </div>
 <p class="">Good job!</p>
@@ -555,7 +691,8 @@ print(x[1] + x[3])
 <li>Using a combination of list subsetting and variable assignment, create a new variable, <code>eat_sleep_area</code>, that contains the sum of the area of the kitchen and the area of the bedroom.</li>
 
 <li>Print the new variable <code>eat_sleep_area</code>.</li>
-```{python}
+
+```python
 # Create the areas list
 areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
 
@@ -564,6 +701,10 @@ eat_sleep_area = areas[3] + areas[-3]
 
 # Print the variable eat_sleep_area
 print(eat_sleep_area)
+```
+
+```
+## 28.75
 ```
 
 <p class="">Bellissimo!</p>
@@ -588,7 +729,8 @@ x[1:3]
 <li>Do a similar thing to create a new variable, <code>upstairs</code>, that contains the last 4 elements of <code>areas</code>.</li>
 
 <li>Print both <code>downstairs</code> and <code>upstairs</code> using <a href="https://docs.python.org/3/library/functions.html#print"><code>print()</code></a>.</li>
-```{python}
+
+```python
 # Create the areas list
 areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
 
@@ -600,7 +742,18 @@ upstairs = areas[6:10]
 
 # Print out downstairs and upstairs
 print(downstairs)
+```
+
+```
+## ['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0]
+```
+
+```python
 print(upstairs)
+```
+
+```
+## ['bedroom', 10.75, 'bathroom', 9.5]
 ```
 
 <p class="">Great!</p>
@@ -623,7 +776,8 @@ x[:]
 <li>Create <code>downstairs</code> again, as the first <code>6</code> elements of <code>areas</code>. This time, simplify the slicing by omitting the <code>begin</code> index.</li>
 
 <li>Create <code>upstairs</code> again, as the last <code>4</code> elements of <code>areas</code>. This time, simplify the slicing by omitting the <code>end</code> index.</li>
-```{python}
+
+```python
 # Create the areas list
 areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
 
@@ -651,7 +805,8 @@ x[2][:2]
 <p>What will <code>house[-1][1]</code> return? <code>house</code>, the list of lists that you created before, is already defined for you in the workspace. You can experiment with it in the IPython Shell.</p>
 </div>
 
-```{python}
+
+```python
 # edited/added
 house = [['hallway', 11.25],
  ['kitchen', 18.0],
@@ -659,6 +814,10 @@ house = [['hallway', 11.25],
  ['bedroom', 10.75],
  ['bathroom', 9.5]]
 print(house[-1][1])
+```
+
+```
+## 9.5
 ```
 
 - [ ] A float: the kitchen area
@@ -689,7 +848,8 @@ x[2:] = ["s", "t"]
 <li>Update the area of the bathroom area to be 10.50 square meters instead of 9.50.</li>
 
 <li>Make the <code>areas</code> list more trendy! Change <code>"living room"</code> to <code>"chill zone"</code>.</li>
-```{python}
+
+```python
 # Create the areas list
 areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
 
@@ -716,7 +876,8 @@ y = x + ["e", "f"]
 <li>Use the <code>+</code> operator to paste the list <code>["poolhouse", 24.5]</code> to the end of the <code>areas</code> list. Store the resulting list as <code>areas_1</code>.</li>
 
 <li>Further extend <code>areas_1</code> by adding data on your garage. Add the string <code>"garage"</code> and float <code>15.45</code>. Name the resulting list <code>areas_2</code>.</li>
-```{python}
+
+```python
 # Create the areas list (updated version)
 areas = ["hallway", 11.25, "kitchen", 18.0, "chill zone", 20.0,
          "bedroom", 10.75, "bathroom", 10.50]
@@ -775,7 +936,8 @@ command2
 <div class="exercise--instructions__content"><p>Change the second command, that creates the variable <code>areas_copy</code>, such that <code>areas_copy</code> is an explicit copy of <code>areas</code>. After your edit, changes made to <code>areas_copy</code> shouldn't affect <code>areas</code>. Submit the answer to check this.</p></div>
 
 <div>
-```{python}
+
+```python
 # Create list areas
 areas = [11.25, 18.0, 20.0, 10.75, 9.50]
 
@@ -788,10 +950,15 @@ areas_copy[0] = 5.0
 # Print areas
 print(areas)
 ```
+
+```
+## [5.0, 18.0, 20.0, 10.75, 9.5]
+```
 </div>
 
 <div>
-```{python}
+
+```python
 # Create list areas
 areas = [11.25, 18.0, 20.0, 10.75, 9.50]
 
@@ -803,6 +970,10 @@ areas_copy[0] = 5.0
 
 # Print areas
 print(areas)
+```
+
+```
+## [11.25, 18.0, 20.0, 10.75, 9.5]
 ```
 
 <p class="">Nice! The difference between explicit and reference-based copies is subtle, but can be really important. Try to keep in mind how a list is stored in the computer's memory.</p>
@@ -834,7 +1005,8 @@ print(areas)
 
 <li>Use <a href="https://docs.python.org/3/library/functions.html#int"><code>int()</code></a> to convert <code>var2</code> to an integer. Store the output as <code>out2</code>.</li>
 <div>
-```{python}
+
+```python
 # Create variables var1 and var2
 var1 = [1, 2, 3, 4]
 var2 = True
@@ -842,16 +1014,26 @@ var2 = True
 # Print out type of var1
 print(type(var1))
 ```
+
+```
+## <class 'list'>
+```
 </div>
 
 <div>
-```{python}
+
+```python
 # Print out length of var1
 print(len(var1))
 ```
+
+```
+## 4
+```
 </div>
 <div>
-```{python}
+
+```python
 # Convert var2 to an integer: out2
 out2 = int(var2)
 ```
@@ -898,7 +1080,8 @@ out2 = int(var2)
 <li>Call <a href="https://docs.python.org/3/library/functions.html#sorted"><code>sorted()</code></a> on <code>full</code> and specify the <code>reverse</code> argument to be <code>True</code>. Save the sorted list as <code>full_sorted</code>.</li>
 
 <li>Finish off by printing out <code>full_sorted</code>.</li>
-```{python}
+
+```python
 # Create lists first and second
 first = [11.25, 18.0, 20.0]
 second = [10.75, 9.50]
@@ -911,6 +1094,10 @@ full_sorted = sorted(full, reverse = True)
 
 # Print out full_sorted
 print(full_sorted)
+```
+
+```
+## [20.0, 18.0, 11.25, 10.75, 9.5]
 ```
 
 <p class="">Cool! Head over to the video on Python methods.</p>
@@ -933,7 +1120,8 @@ print(full_sorted)
 
 <li>Print out the number of o's on the variable <code>place</code> by calling <a href="https://docs.python.org/3/library/stdtypes.html#str.count"><code>count()</code></a> on <code>place</code> and passing the letter <code>'o'</code> as an input to the method. We're talking about the variable <code>place</code>, not the word <code>"place"</code>!</li>
 <div>
-```{python}
+
+```python
 # string to experiment with: place
 place = "poolhouse"
 
@@ -942,13 +1130,29 @@ place_up = place.upper()
 
 # Print out place and place_up
 print(place)
+```
+
+```
+## poolhouse
+```
+
+```python
 print(place_up)
+```
+
+```
+## POOLHOUSE
 ```
 </div>
 <div>
-```{python}
+
+```python
 # Print out the number of o's in place
 print(place.count('o'))
+```
+
+```
+## 3
 ```
 </div>
 
@@ -972,18 +1176,28 @@ print(place.count('o'))
 
 <li>Call <a href="https://docs.python.org/3/library/stdtypes.html#str.count"><code>count()</code></a> on <code>areas</code> to find out how many times <code>9.50</code> appears in the list. Again, simply print out this number.</li>
 <div>
-```{python}
+
+```python
 # Create list areas
 areas = [11.25, 18.0, 20.0, 10.75, 9.50]
 
 # Print out the index of the element 20.0
 print(areas.index(20.0))
 ```
+
+```
+## 2
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out how often 9.50 appears in areas
 print(areas.count(9.50))
+```
+
+```
+## 1
 ```
 </div>
 
@@ -1014,7 +1228,8 @@ print(areas.count(9.50))
 
 <li>Print out <code>areas</code> once more.</li>
 <div>
-```{python}
+
+```python
 # Create list areas
 areas = [11.25, 18.0, 20.0, 10.75, 9.50]
 
@@ -1025,14 +1240,23 @@ areas.append(15.45)
 # Print out areas
 print(areas)
 ```
+
+```
+## [11.25, 18.0, 20.0, 10.75, 9.5, 24.5, 15.45]
+```
 </div>
 <div>
-```{python}
+
+```python
 # Reverse the orders of the elements in areas
 areas.reverse()
 
 # Print out areas
 print(areas)
+```
+
+```
+## [15.45, 24.5, 9.5, 10.75, 20.0, 18.0, 11.25]
 ```
 </div>
 <p class="">Great!</p>
@@ -1058,7 +1282,8 @@ $$A = \pi r^2 $$</p>
 
 <li>Calculate the area of the circle and store it in <code>A</code>.</li>
 <div>
-```{python}
+
+```python
 # Definition of radius
 r = 0.43
 
@@ -1071,14 +1296,23 @@ C = 2 * r * math.pi
 # Build printout
 print("Circumference: " + str(C))
 ```
+
+```
+## Circumference: 2.701769682087222
+```
 </div>
 <div>
-```{python}
+
+```python
 # Calculate A
 A = math.pi * r ** 2
 
 # Build printout
 print("Area: " + str(A))
+```
+
+```
+## Area: 0.5808804816487527
 ```
 </div>
 <p class="">Nice! If you know how to deal with functions from packages, the power of <em>a lot</em> of Python programmers is at your fingertips!</p>
@@ -1098,7 +1332,8 @@ print("Area: " + str(A))
 <li>Calculate the distance travelled by the Moon over 12 degrees of its orbit. Assign the result to <code>dist</code>. You can calculate this as <code>r * phi</code>, where <code>r</code> is the radius and <code>phi</code> is the angle in radians. To convert an angle in degrees to an angle in radians, use the <a href="https://docs.python.org/3/library/math.html#math.radians"><code>radians()</code></a> function, which you just imported.</li>
 
 <li>Print out <code>dist</code>.</li>
-```{python}
+
+```python
 # Definition of radius
 r = 192500
 
@@ -1110,6 +1345,10 @@ dist = r * radians(12)
 
 # Print out dist
 print(dist)
+```
+
+```
+## 40317.10572106901
 ```
 
 <p class="">Nice! Head over to the next exercise.</p>
@@ -1153,7 +1392,8 @@ print(dist)
 <li>Use <a href="http://docs.scipy.org/doc/numpy-1.10.0/glossary.html#term-array"><code>np.array()</code></a> to create a <code>numpy</code> array from <code>baseball</code>. Name this array <code>np_baseball</code>.</li>
 
 <li>Print out the type of <code>np_baseball</code> to check that you got it right.</li>
-```{python}
+
+```python
 # Import the numpy package as np
 import numpy as np
 
@@ -1165,6 +1405,10 @@ np_baseball = np.array(baseball)
 
 # Print out type of np_baseball
 print(type(np_baseball))
+```
+
+```
+## <class 'numpy.ndarray'>
 ```
 
 <p class="">Great job!</p>
@@ -1186,7 +1430,8 @@ print(type(np_baseball))
 
 <li>Print out <code>np_height_m</code> and check if the output makes sense.</li>
 <div>
-```{python}
+
+```python
 # edited/added
 import pandas as pd
 mlb = pd.read_csv("datasets/Introduction-to-Python/baseball.csv")
@@ -1203,14 +1448,23 @@ np_height_in = np.array(height_in)
 # Print out np_height_in
 print(np_height_in)
 ```
+
+```
+## [74 74 72 ... 75 75 73]
+```
 </div>
 <div>
-```{python}
+
+```python
 # Convert np_height_in to m: np_height_m
 np_height_m = np_height_in * 0.0254
 
 # Print np_height_m
 print(np_height_m)
+```
+
+```
+## [1.8796 1.8796 1.8288 ... 1.905  1.905  1.8542]
 ```
 
 <p class="">Nice! In the blink of an eye, <code>numpy</code> performs multiplications on more than 1000 height measurements.</p>
@@ -1228,7 +1482,8 @@ print(np_height_m)
 <li>Use <code>np_height_m</code> and <code>np_weight_kg</code> to calculate the BMI of each player. Use the following equation: $$ \mathrm{BMI} = \frac{\mathrm{weight (kg)}}{\mathrm{height (m)}^2}$$ Save the resulting <code>numpy</code> array as <code>bmi</code>.</li>
 
 <li>Print out <code>bmi</code>.</li>
-```{python}
+
+```python
 # height_in and weight_lb are available as regular lists
 weight_lb = mlb['Weight'].tolist()
 
@@ -1246,6 +1501,11 @@ bmi = np_weight_kg / np_height_m ** 2
 
 # Print out bmi
 print(bmi)
+```
+
+```
+## [23.11037639 27.60406069 28.48080465 ... 25.62295933 23.74810865
+##  25.72686361]
 ```
 
 <p class="">Cool! Time to step up your game!</p>
@@ -1274,7 +1534,8 @@ y[high]
 
 <li>Print out a <code>numpy</code> array with the BMIs of all baseball players whose BMI is below 21. Use <code>light</code> inside square brackets to do a selection on the <code>bmi</code> array.</li>
 <div>
-```{python}
+
+```python
 # height_in and weight_lb are available as a regular lists
 
 # Import numpy
@@ -1291,11 +1552,21 @@ light = bmi < 21
 # Print out light
 print(light)
 ```
+
+```
+## [False False False ... False False False]
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out BMIs of all baseball players whose BMI is below 21
 print(bmi[light])
+```
+
+```
+## [20.54255679 20.54255679 20.69282047 20.69282047 20.34343189 20.34343189
+##  20.69282047 20.15883472 19.4984471  20.69282047 20.9205219 ]
 ```
 </div>
 <p class="">Wow! It appears that only 11 of the more than 1000 baseball players have a BMI under 21!</p>
@@ -1339,7 +1610,8 @@ np_x[1]
 
 <li>Print out a sub-array of <code>np_height_in</code> that contains the elements at index 100 up to <strong>and including</strong> index 110.</li>
 <div>
-```{python}
+
+```python
 # height_in and weight_lb are available as a regular lists
 
 # Import numpy
@@ -1352,11 +1624,20 @@ np_height_in = np.array(height_in)
 # Print out the weight at index 50
 print(np_weight_lb[50])
 ```
+
+```
+## 200
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out sub-array of np_height_in: index 100 up to and including index 110
 print(np_height_in[100:111])
+```
+
+```
+## [73 74 72 73 69 72 73 75 75 73 72]
 ```
 </div>
 <p class="">Nice! Time to learn something new: 2D Numpy arrays!</p>
@@ -1379,7 +1660,8 @@ print(np_height_in[100:111])
 
 <li>Print out the <code>shape</code> attribute of <code>np_baseball</code>. Use <code>np_baseball.shape</code>.</li>
 <div>
-```{python}
+
+```python
 # Create baseball, a list of lists
 baseball = [[180, 78.4],
             [215, 102.7],
@@ -1395,11 +1677,20 @@ np_baseball = np.array(baseball)
 # Print out the type of np_baseball
 print(type(np_baseball))
 ```
+
+```
+## <class 'numpy.ndarray'>
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out the shape of np_baseball
 print(np_baseball.shape)
+```
+
+```
+## (4, 2)
 ```
 
 <p class="">Great! You're ready to convert the actual MLB data to a 2D <code>numpy</code> array now!</p>
@@ -1416,7 +1707,8 @@ print(np_baseball.shape)
 <li>Use <a href="http://docs.scipy.org/doc/numpy-1.10.0/glossary.html#term-array"><code>np.array()</code></a> to create a 2D <code>numpy</code> array from <code>baseball</code>. Name it <code>np_baseball</code>.</li>
 
 <li>Print out the <code>shape</code> attribute of <code>np_baseball</code>.</li>
-```{python}
+
+```python
 # baseball is available as a regular list of lists
 
 # Import numpy package
@@ -1427,6 +1719,10 @@ np_baseball = np.array(baseball)
 
 # Print out the shape of np_baseball
 print(np_baseball.shape)
+```
+
+```
+## (4, 2)
 ```
 
 <p class="">Slick! Time to show off some killer features of multi-dimensional <code>numpy</code> arrays!</p>
@@ -1456,7 +1752,8 @@ np_x[:,0]
 
 <li>Select the height (first column) of the 124th baseball player in <code>np_baseball</code> and print it out.</li>
 <div>
-```{python}
+
+```python
 # edited/added
 baseball = pd.read_csv("datasets/Introduction-to-Python/baseball.csv")[['Height', 'Weight']]
 
@@ -1471,14 +1768,23 @@ np_baseball = np.array(baseball)
 # Print out the 50th row of np_baseball
 print(np_baseball[49,:])
 ```
+
+```
+## [ 70 195]
+```
 </div>
 <div>
-```{python}
+
+```python
 # Select the entire second column of np_baseball: np_weight_lb
 np_weight_lb = np_baseball[:,1]
 
 # Print out height of 124th player
 print(np_baseball[123, 0])
+```
+
+```
+## 75
 ```
 
 <p class="">This is going well!</p>
@@ -1507,7 +1813,8 @@ np_mat + np_mat
 
 <li>Multiply <code>np_baseball</code> with <code>conversion</code> and print out the result.</li>
 <div>
-```{python}
+
+```python
 # edited/added
 baseball = pd.read_csv("datasets/Introduction-to-Python/baseball.csv")[['Height', 'Weight', 'Age']]
 n = len(baseball)
@@ -1525,14 +1832,35 @@ np_baseball = np.array(baseball)
 # Print out addition of np_baseball and updated
 print(np_baseball + updated)
 ```
+
+```
+## [[ 75.2303559  168.83775102  23.99      ]
+##  [ 75.02614252 231.09732309  35.69      ]
+##  [ 73.1544228  215.08167641  31.78      ]
+##  ...
+##  [ 76.09349925 209.23890778  26.19      ]
+##  [ 75.82285669 172.21799965  32.01      ]
+##  [ 73.99484223 203.14402711  28.92      ]]
+```
 </div>
 <div>
-```{python}
+
+```python
 # Create numpy array: conversion
 conversion = np.array([0.0254, 0.453592, 1])
 
 # Print out product of np_baseball and conversion
 print(np_baseball * conversion)
+```
+
+```
+## [[ 1.8796  81.64656 22.99   ]
+##  [ 1.8796  97.52228 34.69   ]
+##  [ 1.8288  95.25432 30.78   ]
+##  ...
+##  [ 1.905   92.98636 25.19   ]
+##  [ 1.905   86.18248 31.01   ]
+##  [ 1.8542  88.45044 27.92   ]]
 ```
 
 <p class="">Great job! Notice how with very little code, you can change all values in your <code>numpy</code> data structure in a very specific way. This will be very useful in your future as a data scientist!</p>
@@ -1559,7 +1887,8 @@ np.median(x)
 <li>Print out the mean of <code>np_height_in</code>.</li>
 
 <li>Print out the median of <code>np_height_in</code>.</li>
-```{python}
+
+```python
 # np_baseball is available
 
 # Import numpy
@@ -1571,11 +1900,20 @@ np_height_in = np_baseball[:,0]
 # Print out the mean of np_height_in
 print(np.mean(np_height_in))
 ```
+
+```
+## 73.6896551724138
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out the median of np_height_in
 print(np.median(np_height_in))
+```
+
+```
+## 74.0
 ```
 </div>
 
@@ -1603,7 +1941,8 @@ print(np.median(np_height_in))
 
 <li>Do big players tend to be heavier? Use <a href="http://docs.scipy.org/doc/numpy-1.10.0/reference/generated/numpy.corrcoef.html"><code>np.corrcoef()</code></a> to store the correlation between the first and second column of <code>np_baseball</code> in <code>corr</code>. Replace <code>None</code> with the correct code.</li>
 <div>
-```{python}
+
+```python
 # np_baseball is available
 
 # Import numpy
@@ -1613,26 +1952,46 @@ import numpy as np
 avg = np.mean(np_baseball[:,0])
 print("Average: " + str(avg))
 ```
+
+```
+## Average: 73.6896551724138
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print median height. Replace 'None'
 med = np.median(np_baseball[:,0])
 print("Median: " + str(med))
 ```
+
+```
+## Median: 74.0
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out the standard deviation on height. Replace 'None'
 stddev = np.std(np_baseball[:,0])
 print("Standard Deviation: " + str(stddev))
 ```
+
+```
+## Standard Deviation: 2.312791881046546
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out correlation between first and second column. Replace 'None'
 corr = np.corrcoef(np_baseball[:,0], np_baseball[:,1])
 print("Correlation: " + str(corr))
+```
+
+```
+## Correlation: [[1.         0.53153932]
+##  [0.53153932 1.        ]]
 ```
 </div>
 <p class="">Great! Time to use all of your new data science skills in the last exercise!</p>
@@ -1661,7 +2020,8 @@ heights = [191, 184, 185, 180, ...]
 
 <li>Do the same for the other players. Print out their median height. Replace <code>None</code> with the correct code.</li>
 <div>
-```{python}
+
+```python
 # edited/added
 fifa =  pd.read_csv("datasets/Introduction-to-Python/fifa.csv", skipinitialspace=True, usecols=['position', 'height'])
 positions = list(fifa.position)
@@ -1685,11 +2045,20 @@ other_heights = np_heights[np_positions != 'GK']
 # Print out the median height of goalkeepers. Replace 'None'
 print("Median height of goalkeepers: " + str(np.median(gk_heights)))
 ```
+
+```
+## Median height of goalkeepers: 188.0
+```
 </div>
 <div>
-```{python}
+
+```python
 # Print out the median height of other players. Replace 'None'
 print("Median height of other players: " + str(np.median(other_heights)))
+```
+
+```
+## Median height of other players: 181.0
 ```
 
 <p class="">Wonderful! You were right and the disbelievers were wrong! This exercise marks the end of the Intro to Python for Data Science course. See you in another course!</p>

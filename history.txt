@@ -1,0 +1,67 @@
+    1  conda create -n introduction-to-python python=3.8
+    2  conda activate Introduction-to-Python
+    3  ls
+    4  pip install -r requirements
+    5  pip install -r requirements.txt
+    6  lls
+    7  ls
+    8  pip install -r requirements.txt
+    9  pip freeze
+   10  pip freeze
+   11  pip install -r requirements.txt
+   12  conda install -n introduction-to-python ipykernel --update-deps --force-reinstall
+   13  git add .
+   14  git commit -m "Introduction to Python"
+   15  git push
+   16  git add .
+   17  git commit -m "edit md and ipynb"
+   18  git push
+   19  git add .
+   20  git commit -m "edit md and ipynb"
+   21  git push
+   22  git add .
+   23  git commit -m "edit md and ipynb"
+   24  git push
+   25  git add .
+   26  git commit -m "delete files"
+   27  git push
+   28  git add .
+   29  git commit -m "delete files"
+   30  git push
+   31  conda create -n intermediate-python python=3.8
+   32  conda activate intermediate-python
+   33  ls
+   34  cd Intermediate-Python
+   35  ls
+   36  pip install -r requirements.txtx
+   37  pip install -r requirements.txt
+   38  pip install -r requirements.txt
+   39  conda create -n python-data-science-toobox-part-1 python=3.8
+   40  conda activate python-data-science-toobox-part-1
+   41  ls
+   42  cd Python-Data-Science-Toolbox-Part-1
+   43  pip install -r requirements.txt
+   44  pip install -r requirements.txt
+   45  conda create -n python-data-science-toolbox-part-2 python=3.8
+   46  conda activate python-data-science-toolbox-part-2
+   47  cd Python-Data-Science-Toolbox-Part-2
+   48  pip install -r requirements.txt
+   49  pip install -r requirements.txt
+   50  conda activate pyhon-data-science-toolbox-part-2
+   51  conda info --envs
+   52  conda activate python-data-science-toolbox-part-2
+   53  conda install -n python-data-science-toolbox-part-2 ipykernel --update-deps --force-reinstall
+   54  conda create -n python-fundamentals python=3.8
+   55  conda activate python-fundamentals
+   56  ls
+   57  R
+   58  pip freeze
+   59  pip install numpy
+   60  R
+   61  pip install pandas
+   62  R
+   63  R
+   64  R
+   65  R
+   66  R
+   67  history > history.txt
