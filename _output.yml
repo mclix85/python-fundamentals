@@ -1,12 +1,19 @@
 bookdown::bs4_book:
   css: style.css
   theme:
-    primary: "#096B72"
-  repo: https://github.com/rstudio/bookdown-demo
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
+    primary: "#5b7886"
+  repo: https://github.com/mcllix85/https://github.com/mclix85/python-fundamentals
+
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./">DataCamp: Bookdown</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit:
+      link: https://github.com/mclix85/python-fundamentals/edit/master/%s
+
 bookdown::epub_book: default
