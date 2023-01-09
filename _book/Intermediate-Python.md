@@ -1,8 +1,13 @@
 # Intermediate Python {.unnumbered}
 
-<h3><a href="https://github.com/mclix85/datacamp" target="_blank">View Source Code</a></h3>
+**Hugo Bowne-Anderson**
 
-<h3>Course Description</h3>
+<p class="course__instructor-description display-none-mobile-course-page-experiment">
+    Hugo is a data scientist, educator, writer and podcaster formerly at DataCamp. His main interests are promoting data &amp; AI literacy, helping to spread data skills through organizations and society and doing amateur stand up comedy in NYC. If you want to know what he likes to talk about, definitely check out <a href="https://www.datacamp.com/community/podcast">DataFramed</a>, the DataCamp podcast, which he hosted and produced.
+  </p>
+
+**Course Description**
+
 
 <p class="course__description">Learning Python is crucial for any aspiring data science practitioner. Learn to visualize real data with Matplotlib’s functions and get acquainted with data structures such as the dictionary and pandas DataFrame. This four-hour intermediate course will help you to build on your existing Python skills and explore new Python applications and functions that expand your repertoire and help you work more efficiently.
 <br><br>
@@ -493,7 +498,7 @@ plt.xticks(tick_val, tick_lab)
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f9fb4e15ee0>, <matplotlib.axis.XTick object at 0x7f9fb4e15a30>, <matplotlib.axis.XTick object at 0x7f9fb4e15880>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7f8eaae5bee0>, <matplotlib.axis.XTick object at 0x7f8eaae5ba30>, <matplotlib.axis.XTick object at 0x7f8eaae5b880>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>
@@ -541,7 +546,7 @@ plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f9fb4bdfb50>, <matplotlib.axis.XTick object at 0x7f9fb4bdf2b0>, <matplotlib.axis.XTick object at 0x7f9fb4c76cd0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7f8eaaafcb50>, <matplotlib.axis.XTick object at 0x7f8eaaafc2b0>, <matplotlib.axis.XTick object at 0x7f8eaab93cd0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>
@@ -585,7 +590,7 @@ plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f9fb4b008e0>, <matplotlib.axis.XTick object at 0x7f9fb4b00a30>, <matplotlib.axis.XTick object at 0x7f9fb4b00730>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7f8eaaa1e8e0>, <matplotlib.axis.XTick object at 0x7f8eaaa1ea30>, <matplotlib.axis.XTick object at 0x7f8eaaa1e730>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>
@@ -639,7 +644,7 @@ plt.xticks([1000,10000,100000], ['1k','10k','100k'])
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f9fb353db20>, <matplotlib.axis.XTick object at 0x7f9fb353ddc0>, <matplotlib.axis.XTick object at 0x7f9fb353d6a0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7f8ea937eb20>, <matplotlib.axis.XTick object at 0x7f8ea937edc0>, <matplotlib.axis.XTick object at 0x7f8ea937e6a0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>
@@ -675,7 +680,7 @@ plt.xticks([1000,10000,100000], ['1k','10k','100k'])
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f9fb4bca4c0>, <matplotlib.axis.XTick object at 0x7f9fb4bcaf70>, <matplotlib.axis.XTick object at 0x7f9fb4d478e0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7f8eaaae74c0>, <matplotlib.axis.XTick object at 0x7f8eaaae7f70>, <matplotlib.axis.XTick object at 0x7f8eaad8c8e0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>

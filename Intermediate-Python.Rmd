@@ -1,8 +1,13 @@
 # Intermediate Python {.unnumbered}
 
-<h3><a href="https://github.com/mclix85/datacamp" target="_blank">View Source Code</a></h3>
+**Hugo Bowne-Anderson**
 
-<h3>Course Description</h3>
+<p class="course__instructor-description display-none-mobile-course-page-experiment">
+    Hugo is a data scientist, educator, writer and podcaster formerly at DataCamp. His main interests are promoting data &amp; AI literacy, helping to spread data skills through organizations and society and doing amateur stand up comedy in NYC. If you want to know what he likes to talk about, definitely check out <a href="https://www.datacamp.com/community/podcast">DataFramed</a>, the DataCamp podcast, which he hosted and produced.
+  </p>
+
+**Course Description**
+
 
 <p class="course__description">Learning Python is crucial for any aspiring data science practitioner. Learn to visualize real data with Matplotlib’s functions and get acquainted with data structures such as the dictionary and pandas DataFrame. This four-hour intermediate course will help you to build on your existing Python skills and explore new Python applications and functions that expand your repertoire and help you work more efficiently.
 <br><br>

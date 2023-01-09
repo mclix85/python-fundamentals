@@ -7,7 +7,7 @@ rmd_files: [
   "Introduction-to-Python.Rmd",
   "Intermediate-Python.Rmd",
   "Python-Data-Science-Toolbox-Part-1.Rmd",
-  # "Python-Data-Science-Toolbox-Part-2.Rmd",
+  "Python-Data-Science-Toolbox-Part-2.Rmd",
  
 ]
 

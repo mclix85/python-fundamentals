@@ -2,9 +2,13 @@
 
 # Introduction to Python {.unnumbered}
 
-<h3><a href="https://github.com/mclix85/main" target="_blank">View Source Code</a></h3>
+**Hugo Bowne-Anderson**
 
-<h3>Course Description</h3>
+<p class="course__instructor-description display-none-mobile-course-page-experiment">
+    Hugo is a data scientist, educator, writer and podcaster formerly at DataCamp. His main interests are promoting data &amp; AI literacy, helping to spread data skills through organizations and society and doing amateur stand up comedy in NYC. If you want to know what he likes to talk about, definitely check out <a href="https://www.datacamp.com/community/podcast">DataFramed</a>, the DataCamp podcast, which he hosted and produced.
+  </p>
+
+**Course Description**
 
 <p class="course__description">Python is a general-purpose programming language that is becoming ever more popular for data science. Companies worldwide are using Python to harvest insights from their data and gain a competitive edge. Unlike other Python tutorials, this course focuses on Python specifically for data science. In our Introduction to Python course, you’ll learn about powerful ways to store and manipulate data, and helpful data science tools to begin conducting your own analyses. Start DataCamp’s online Python curriculum now.</p>
 

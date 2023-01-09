@@ -1,8 +1,12 @@
 # Python Data Science Toolbox (Part 1) {.unnumbered}
 
-<h3><a href="https://github.com/mclix85/datacamp" target="_blank">View Source Code</a></h3>
+**Hugo Bowne-Anderson**
 
-<h3>Course Description</h3>
+<p class="course__instructor-description display-none-mobile-course-page-experiment">
+    Hugo is a data scientist, educator, writer and podcaster formerly at DataCamp. His main interests are promoting data &amp; AI literacy, helping to spread data skills through organizations and society and doing amateur stand up comedy in NYC. If you want to know what he likes to talk about, definitely check out <a href="https://www.datacamp.com/community/podcast">DataFramed</a>, the DataCamp podcast, which he hosted and produced.
+  </p>
+
+**Course Description**
 
 <p class="course__description">It's time to push forward and develop your Python chops even further. There are tons of fantastic functions in Python and its library ecosystem. However, as a data scientist, you'll constantly need to write your own functions to solve problems that are dictated by your data. You will learn the art of function writing in this first Python Data Science Toolbox course. You'll come out of this course being able to write your very own custom functions, complete with multiple parameters and multiple return values, along with default arguments and variable-length arguments. You'll gain insight into scoping in Python and be able to write lambda functions and handle errors in your function writing practice. And you'll wrap up each chapter by using your new skills to write functions that analyze Twitter DataFrames.</p>
 
