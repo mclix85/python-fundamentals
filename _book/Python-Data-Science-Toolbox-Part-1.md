@@ -55,12 +55,24 @@ object3 = "1" * 3
 <p>What are the types of <code>x</code>, <code>y1</code>, and <code>y2</code>?</p>
 </div>
 <div>
-```{python}
+
+```python
 # edited/added
 x = 4.89
 y1 = str(x)
 y2 = print(x)
+```
+
+```
+## 4.89
+```
+
+```python
 type(x),type(y1),type(y2)
+```
+
+```
+## (<class 'float'>, <class 'str'>, <class 'NoneType'>)
 ```
 </div>
 
@@ -91,7 +103,8 @@ type(x),type(y1),type(y2)
 
 <li>Call the <code>shout</code> function.</li>
 <div>
-```{python}
+
+```python
 # Define the function shout
 def shout():
     """Print a string with three exclamation marks"""
@@ -103,6 +116,10 @@ def shout():
 
 # Call shout
 shout()
+```
+
+```
+## congratulations!!!
 ```
 </div>
 
@@ -123,7 +140,8 @@ You will now update <code>shout()</code> by adding a <em>parameter</em> so that 
 
 <li>Call the <code>shout()</code> function, passing to it the string, <code>'congratulations'</code>.</li>
 <div>
-```{python}
+
+```python
 # Define shout with the parameter, word
 def shout(word):
     """Print a string with three exclamation marks"""
@@ -135,6 +153,10 @@ def shout(word):
     
 # Call shout with the string 'congratulations'
 shout('congratulations')
+```
+
+```
+## congratulations!!!
 ```
 </div>
 
@@ -152,7 +174,8 @@ shout('congratulations')
 
 <li>To check if <code>yell</code> contains the value returned by <code>shout()</code>, print the value of <code>yell</code>.</li>
 <div>
-```{python}
+
+```python
 # Define shout with the parameter, word
 def shout(word):
     """Return a string with three exclamation marks"""
@@ -167,6 +190,10 @@ yell = shout('congratulations')
 
 # Print yell
 print(yell)
+```
+
+```
+## congratulations!!!
 ```
 </div>
 
@@ -187,7 +214,8 @@ print(yell)
 
 <li>Pass the strings <code>'congratulations'</code> and <code>'you'</code>, in that order, to a call to <code>shout()</code>. Assign the return value to <code>yell</code>.</li>
 <div>
-```{python}
+
+```python
 # Define shout with parameters word1 and word2
 def shout(word1, word2):
     """Concatenate strings with three exclamation marks"""
@@ -208,6 +236,10 @@ yell = shout('congratulations', 'you')
 
 # Print yell
 print(yell)
+```
+
+```
+## congratulations!!!you!!!
 ```
 </div>
 
@@ -231,7 +263,8 @@ print(yell)
 
 <li>Construct a new tuple, <code>even_nums</code> composed of the same elements in <code>nums</code>, but with the 1st element replaced with the value, <em>2</em>.</li>
 <div>
-```{python}
+
+```python
 # edited/added
 nums = (3,4,6)
 
@@ -259,7 +292,8 @@ even_nums = (2, num2, num3)
 
 <li>Call <code>shout_all()</code> with the strings <code>'congratulations'</code> and <code>'you'</code> and assign the result to <code>yell1</code> and <code>yell2</code> (remember, <code>shout_all()</code> returns 2 variables!).</li>
 <div>
-```{python}
+
+```python
 # Define shout_all with parameters word1 and word2
 def shout_all(word1, word2):
     """Return a tuple of strings"""
@@ -280,7 +314,18 @@ yell1, yell2 = shout_all('congratulations', 'you')
 
 # Print yell1 and yell2
 print(yell1)
+```
+
+```
+## congratulations!!!
+```
+
+```python
 print(yell2)
+```
+
+```
+## you!!!
 ```
 </div>
 
@@ -307,7 +352,8 @@ print(yell2)
 <li>Complete the <code>for</code> loop by iterating over <code>col</code>, the <code>'lang'</code> column in the DataFrame <code>df</code>.</li>
 <li>Complete the bodies of the <code>if-else</code> statements in the for loop:  <strong>if</strong> the key is in the dictionary <code>langs_count</code>, add <code>1</code> to the value corresponding to this key in the dictionary, <strong>else</strong> add the key to <code>langs_count</code> and set the corresponding value to <code>1</code>. Use the loop variable <code>entry</code> in your code.</li>
 <div>
-```{python}
+
+```python
 # Import pandas
 import pandas as pd
 
@@ -333,6 +379,10 @@ for entry in col:
 # Print the populated dictionary
 print(langs_count)
 ```
+
+```
+## {'en': 97, 'et': 1, 'und': 2}
+```
 </div>
 
 <p class="">Great work!</p>
@@ -352,7 +402,8 @@ print(langs_count)
 
 <li>Call the <code>count_entries()</code> function by passing to it <code>tweets_df</code> and the name of the column, <code>'lang'</code>. Assign the result of the call to the variable <code>result</code>.</li>
 <div>
-```{python}
+
+```python
 # Define count_entries()
 def count_entries(df, col_name):
     """Return a dictionary with counts of 
@@ -385,6 +436,10 @@ result = count_entries(tweets_df, 'lang')
 
 # Print the result
 print(result)
+```
+
+```
+## {'en': 97, 'et': 1, 'und': 2}
 ```
 </div>
 
@@ -440,7 +495,8 @@ def func2():
 
 <li>Hit the Submit button to see how executing your newly defined function <code>change_team()</code> changes the value of the name <code>team</code>!</li>
 <div>
-```{python}
+
+```python
 # Create a string: team
 team = "teen titans"
 
@@ -457,15 +513,24 @@ def change_team():
 # Print team
 print(team)
 ```
+
+```
+## teen titans
+```
 </div>
 
 <div>
-```{python}
+
+```python
 # Call change_team()
 change_team()
 
 # Print team
 print(team)
+```
+
+```
+## justice league
 ```
 </div>
 
@@ -499,7 +564,8 @@ After executing <code>import builtins</code> in the IPython Shell, execute <code
 <li>Complete the function header of the nested function with the function name <code>inner()</code> and a single parameter <code>word</code>.</li>
 <li>Complete the return value: each element of the tuple should be a call to <code>inner()</code>, passing in the parameters from <code>three_shouts()</code> as arguments to each call.</li>
 <div>
-```{python}
+
+```python
 # Define three_shouts
 def three_shouts(word1, word2, word3):
     """Returns a tuple of strings
@@ -515,6 +581,10 @@ def three_shouts(word1, word2, word3):
 
 # Call three_shouts() and print
 print(three_shouts('a', 'b', 'c'))
+```
+
+```
+## ('a!!!', 'b!!!', 'c!!!')
 ```
 </div>
 
@@ -535,7 +605,8 @@ print(three_shouts('a', 'b', 'c'))
 
 <li>Hit Submit to call <code>twice()</code> and <code>thrice()</code> and print the results.</li>
 <div>
-```{python}
+
+```python
 # Define echo
 def echo(n):
     """Return the inner_echo function."""
@@ -558,6 +629,10 @@ thrice = echo(3)
 # Call twice() and thrice() then print
 print(twice('hello'), thrice('hello'))
 ```
+
+```
+## hellohello hellohellohello
+```
 </div>
 
 <p class="">Great work!</p>
@@ -573,7 +648,8 @@ print(twice('hello'), thrice('hello'))
 
 <li>Call the function <code>echo_shout()</code>,  passing it a single argument 'hello'.</li>
 <div>
-```{python}
+
+```python
 # Define echo_shout()
 def echo_shout(word):
     """Change the value of a nonlocal variable"""
@@ -603,6 +679,11 @@ def echo_shout(word):
 # Call function echo_shout() with argument 'hello'
 echo_shout('hello')
 ```
+
+```
+## hellohello
+## hellohello!!!
+```
 </div>
 
 <p class="">Quite something, that <code>nonlocal</code> keyword!</p>
@@ -623,7 +704,8 @@ echo_shout('hello')
 
 <li>Call <code>shout_echo()</code> with the string <code>"Hey"</code> and the value <code>5</code> for the default argument, <code>echo</code>. Assign the result to <code>with_echo</code>.</li>
 <div>
-```{python}
+
+```python
 # Define shout_echo
 def shout_echo(word1, echo=1):
     """Concatenate echo copies of word1 and three
@@ -646,7 +728,18 @@ with_echo = shout_echo("Hey", echo=5)
 
 # Print no_echo and with_echo
 print(no_echo)
+```
+
+```
+## Hey!!!
+```
+
+```python
 print(with_echo)
+```
+
+```
+## HeyHeyHeyHeyHey!!!
 ```
 </div>
 
@@ -667,7 +760,8 @@ print(with_echo)
 
 <li>Call <code>shout_echo()</code> with the string <code>"Hey"</code> and the value <code>True</code> for <code>intense</code>. Assign the result to <code>big_no_echo</code>.</li>
 <div>
-```{python}
+
+```python
 # Define shout_echo
 def shout_echo(word1, echo=1, intense=False):
     """Concatenate echo copies of word1 and three
@@ -695,7 +789,18 @@ big_no_echo = shout_echo("Hey", intense=True)
 
 # Print with_big_echo and big_no_echo
 print(with_big_echo)
+```
+
+```
+## HEYHEYHEYHEYHEY!!!
+```
+
+```python
 print(big_no_echo)
+```
+
+```
+## HEY!!!
 ```
 </div>
 
@@ -717,7 +822,8 @@ print(big_no_echo)
 
 <li>Hit the Submit button to call <code>gibberish()</code> with multiple arguments and to print the value to the Shell.</li>
 <div>
-```{python}
+
+```python
 # Define gibberish
 def gibberish(*args):
     """Concatenate strings in *args together."""
@@ -740,7 +846,18 @@ many_words = gibberish("luke", "leia", "han", "obi", "darth")
 
 # Print one_word and many_words
 print(one_word)
+```
+
+```
+## luke
+```
+
+```python
 print(many_words)
+```
+
+```
+## lukeleiahanobidarth
 ```
 </div>
 
@@ -761,7 +878,8 @@ print(many_words)
 
 <li>In the second call to <code>report_status()</code>, pass the following keyword-value pairs: <code>name="anakin"</code>, <code>affiliation="sith lord"</code> and <code>status="deceased"</code>.</li>
 <div>
-```{python}
+
+```python
 # Define report_status
 def report_status(**kwargs):
     """Print out the status of a movie character."""
@@ -778,11 +896,34 @@ def report_status(**kwargs):
 # First call to report_status()
 report_status(name="luke", affiliation="jedi", status="missing")
 ```
+
+```
+## 
+## BEGIN: REPORT
+## 
+## name: luke
+## affiliation: jedi
+## status: missing
+## 
+## END REPORT
+```
 </div>
 <div>
-```{python}
+
+```python
 # Second call to report_status()
 report_status(name="anakin", affiliation="sith lord", status="deceased")
+```
+
+```
+## 
+## BEGIN: REPORT
+## 
+## name: anakin
+## affiliation: sith lord
+## status: deceased
+## 
+## END REPORT
 ```
 </div>
 
@@ -807,7 +948,8 @@ report_status(name="anakin", affiliation="sith lord", status="deceased")
 
 <li>Call <code>count_entries()</code> by passing the <code>tweets_df</code> DataFrame and the column name <code>'source'</code>. Assign the result to <code>result2</code>.</li>
 <div>
-```{python}
+
+```python
 # Define count_entries()
 def count_entries(df, col_name='lang'):
     """Return a dictionary with counts of
@@ -841,7 +983,18 @@ result2 = count_entries(tweets_df, col_name='source')
 
 # Print result1 and result2
 print(result1)
+```
+
+```
+## {'en': 97, 'et': 1, 'und': 2}
+```
+
+```python
 print(result2)
+```
+
+```
+## {'<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>': 24, '<a href="http://www.facebook.com/twitter" rel="nofollow">Facebook</a>': 1, '<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>': 26, '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>': 33, '<a href="http://www.twitter.com" rel="nofollow">Twitter for BlackBerry</a>': 2, '<a href="http://www.google.com/" rel="nofollow">Google</a>': 2, '<a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter for iPad</a>': 6, '<a href="http://linkis.com" rel="nofollow">Linkis.com</a>': 2, '<a href="http://rutracker.org/forum/viewforum.php?f=93" rel="nofollow">newzlasz</a>': 2, '<a href="http://ifttt.com" rel="nofollow">IFTTT</a>': 1, '<a href="http://www.myplume.com/" rel="nofollow">Plume\xa0for\xa0Android</a>': 1}
 ```
 </div>
 
@@ -862,7 +1015,8 @@ print(result2)
 
 <li>Call <code>count_entries()</code> by passing the <code>tweets_df</code> DataFrame and the column names <code>'lang'</code> and <code>'source'</code>. Assign the result to <code>result2</code>.</li>
 <div>
-```{python}
+
+```python
 # Define count_entries()
 def count_entries(df, *args):
     """Return a dictionary with counts of
@@ -899,7 +1053,18 @@ result2 = count_entries(tweets_df, 'lang', 'source')
 
 # Print result1 and result2
 print(result1)
+```
+
+```
+## {'en': 97, 'et': 1, 'und': 2}
+```
+
+```python
 print(result2)
+```
+
+```
+## {'en': 97, 'et': 1, 'und': 2, '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>': 24, '<a href="http://www.facebook.com/twitter" rel="nofollow">Facebook</a>': 1, '<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>': 26, '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>': 33, '<a href="http://www.twitter.com" rel="nofollow">Twitter for BlackBerry</a>': 2, '<a href="http://www.google.com/" rel="nofollow">Google</a>': 2, '<a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter for iPad</a>': 6, '<a href="http://linkis.com" rel="nofollow">Linkis.com</a>': 2, '<a href="http://rutracker.org/forum/viewforum.php?f=93" rel="nofollow">newzlasz</a>': 2, '<a href="http://ifttt.com" rel="nofollow">IFTTT</a>': 1, '<a href="http://www.myplume.com/" rel="nofollow">Plume\xa0for\xa0Android</a>': 1}
 ```
 </div>
 
@@ -950,7 +1115,8 @@ print(result2)
 
 <li>Call <code>echo_word()</code> with the string argument <code>'hey'</code> and the value <code>5</code>, in that order. Assign the call to <code>result</code>.</li>
 <div>
-```{python}
+
+```python
 # Define echo_word as a lambda function: echo_word
 echo_word = (lambda word1, echo: word1 * echo)
 
@@ -959,6 +1125,10 @@ result = echo_word('hey', 5)
 
 # Print result
 print(result)
+```
+
+```
+## heyheyheyheyhey
 ```
 </div>
 
@@ -981,7 +1151,8 @@ result = map(lambda a: a ** 2, nums)
 
 <li>Convert <code>shout_spells</code> to a list and print out the list.</li>
 <div>
-```{python}
+
+```python
 # Create a list of strings: spells
 spells = ['protego', 'accio', 'expecto patronum', 'legilimens']
 
@@ -993,6 +1164,10 @@ shout_spells_list = list(shout_spells)
 
 # Print the result
 print(shout_spells_list)
+```
+
+```
+## ['protego!!!', 'accio!!!', 'expecto patronum!!!', 'legilimens!!!']
 ```
 </div>
 
@@ -1010,7 +1185,8 @@ print(shout_spells_list)
 
 <li>Convert <code>result</code> to a list and print out the list.</li>
 <div>
-```{python}
+
+```python
 # Create a list of strings: fellowship
 fellowship = ['frodo', 'samwise', 'merry', 'pippin', 'aragorn', 'boromir', 'legolas', 'gimli', 'gandalf']
 
@@ -1022,6 +1198,10 @@ result_list = list(result)
 
 # Print result_list
 print(result_list)
+```
+
+```
+## ['samwise', 'aragorn', 'boromir', 'legolas', 'gandalf']
 ```
 </div>
 
@@ -1048,7 +1228,8 @@ def gibberish(*args):
 
 <li>In the <code>reduce()</code> call, pass a lambda function that takes two string arguments <code>item1</code> and <code>item2</code> and concatenates them; also pass the list of strings, <code>stark</code>. Assign the result to <code>result</code>. The first argument to <code>reduce()</code> should be the lambda function and the second argument is the list <code>stark</code>.</li>
 <div>
-```{python}
+
+```python
 # Import reduce from functools
 from functools import reduce
 
@@ -1060,6 +1241,10 @@ result = reduce(lambda item1, item2: item1 + item2, stark)
 
 # Print the result
 print(result)
+```
+
+```
+## robbsansaaryabrandonrickon
 ```
 </div>
 
@@ -1108,7 +1293,8 @@ len(('jaime', 'cersei', 'tywin', 'tyrion', 'joffrey'))
 <li>Use the <code>*</code> operator to concatenate <code>echo</code> copies of <code>word1</code>. Assign the result to <code>echo_word</code>.</li>
 <li>Concatenate the string <code>'!!!'</code> to <code>echo_word</code>. Assign the result to <code>shout_words</code>.</li>
 <div>
-```{python}
+
+```python
 # Define shout_echo
 def shout_echo(word1, echo=1):
     """Concatenate echo copies of word1 and three
@@ -1135,6 +1321,11 @@ def shout_echo(word1, echo=1):
 # Call shout_echo
 shout_echo("particle", echo="accelerator")
 ```
+
+```
+## word1 must be a string and echo must be an integer.
+## ''
+```
 </div>
 
 <p class="">Great work!</p>
@@ -1150,7 +1341,8 @@ shout_echo("particle", echo="accelerator")
 <li>Complete the <code>if</code> statement by checking if the value of <code>echo</code> is <em>less than</em> 0.</li>
 <li>In the body of the <code>if</code> statement, add a <code>raise</code> statement that raises a <code>ValueError</code> with message <code>'echo must be greater than or equal to 0'</code> when the value supplied by the user to <code>echo</code> is less than 0.</li>
 <div>
-```{python}
+
+```python
 # Define shout_echo
 def shout_echo(word1, echo=1):
     """Concatenate echo copies of word1 and three
@@ -1172,6 +1364,10 @@ def shout_echo(word1, echo=1):
 # Call shout_echo
 shout_echo("particle", echo=5)
 ```
+
+```
+## 'particleparticleparticleparticleparticle!!!'
+```
 </div>
 
 <p class="">Great work!</p>
@@ -1192,7 +1388,8 @@ shout_echo("particle", echo=5)
 
 <li>Convert <code>result</code> to a list and print out the list.</li>
 <div>
-```{python}
+
+```python
 # Select retweets from the Twitter DataFrame: result
 result = filter(lambda x: x[0:2] == 'RT', tweets_df['text'])
 
@@ -1202,6 +1399,99 @@ res_list = list(result)
 # Print all retweets in res_list
 for tweet in res_list:
     print(tweet)
+```
+
+```
+## RT @bpolitics: .@krollbondrating's Christopher Whalen says Clinton is the weakest Dem candidate in 50 years https://t.co/pLk7rvoRSn https:/…
+## RT @HeidiAlpine: @dmartosko Cruz video found.....racing from the scene.... #cruzsexscandal https://t.co/zuAPZfQDk3
+## RT @AlanLohner: The anti-American D.C. elites despise Trump for his America-first foreign policy. Trump threatens their gravy train. https:…
+## RT @BIackPplTweets: Young Donald trump meets his neighbor  https://t.co/RFlu17Z1eE
+## RT @trumpresearch: @WaitingInBagdad @thehill Trump supporters have selective amnisia.
+## RT @HouseCracka: 29,000+ PEOPLE WATCHING TRUMP LIVE ON ONE STREAM!!!
+## 
+## https://t.co/7QCFz9ehNe
+## RT @urfavandtrump: RT for Brendon Urie
+## Fav for Donald Trump https://t.co/PZ5vS94lOg
+## RT @trapgrampa: This is how I see #Trump every time he speaks. https://t.co/fYSiHNS0nT
+## RT @trumpresearch: @WaitingInBagdad @thehill Trump supporters have selective amnisia.
+## RT @Pjw20161951: NO KIDDING: #SleazyDonald just attacked Scott Walker for NOT RAISING TAXES in WI! #LyinTrump
+## #NeverTrump  #CruzCrew  https…
+## RT @urfavandtrump: RT for Brendon Urie
+## Fav for Donald Trump https://t.co/PZ5vS94lOg
+## RT @ggreenwald: The media spent all day claiming @SusanSarandon said she might vote for Trump. A total fabrication, but whatever... https:/…
+## RT @Pjw20161951: NO KIDDING: #SleazyDonald just attacked Scott Walker for NOT RAISING TAXES in WI! #LyinTrump
+## #NeverTrump  #CruzCrew  https…
+## RT @trapgrampa: This is how I see #Trump every time he speaks. https://t.co/fYSiHNS0nT
+## RT @mitchellvii: So let me get this straight.  Any reporter can assault Mr Trump at any time and Corey can do nothing?  Michelle is clearly…
+## RT @paulbenedict7: How #Trump Sacks RINO Strongholds by Hitting Positions Held by Dems and GOP https://t.co/D7ulnAJhis   #tcot #PJNET https…
+## RT @DRUDGE_REPORT: VIDEO:  Trump emotional moment with Former Miss Wisconsin who has terminal illness... https://t.co/qt06aG9inT
+## RT @ggreenwald: The media spent all day claiming @SusanSarandon said she might vote for Trump. A total fabrication, but whatever... https:/…
+## RT @DennisApgar: Thank God I seen Trump at first stop in Wisconsin media doesn't know how great he is, advice watch live streaming https://…
+## RT @paulbenedict7: How #Trump Sacks RINO Strongholds by Hitting Positions Held by Dems and GOP https://t.co/D7ulnAJhis   #tcot #PJNET https…
+## RT @DRUDGE_REPORT: VIDEO:  Trump emotional moment with Former Miss Wisconsin who has terminal illness... https://t.co/qt06aG9inT
+## RT @DennisApgar: Thank God I seen Trump at first stop in Wisconsin media doesn't know how great he is, advice watch live streaming https://…
+## RT @mitchellvii: So let me get this straight.  Any reporter can assault Mr Trump at any time and Corey can do nothing?  Michelle is clearly…
+## RT @sciam: Trump's idiosyncratic patterns of speech are why people tend either to love or hate him https://t.co/QXwquVgs3c https://t.co/P9N…
+## RT @Norsu2: Nightmare WI poll for Ted Cruz has Kasich surging: Trump 29, Kasich 27, Cruz 25. https://t.co/lJsgbLYY1P #NeverTrump
+## RT @thehill: WATCH: Protester pepper-sprayed point blank at Trump rally https://t.co/B5f65Al9ld https://t.co/skAfByXuQc
+## RT @sciam: Trump's idiosyncratic patterns of speech are why people tend either to love or hate him https://t.co/QXwquVgs3c https://t.co/P9N…
+## RT @ggreenwald: The media spent all day claiming @SusanSarandon said she might vote for Trump. A total fabrication, but whatever... https:/…
+## RT @DebbieStout5: Wow! Last I checked it was just 12 points &amp; that wasn't more than a day ago. Oh boy Trump ppl might want to rethink🤔 http…
+## RT @tyleroakley: i'm a messy bitch, but at least i'm not voting for trump
+## RT @vandives: Trump supporters r tired of justice NOT being served. There's no justice anymore. Hardworking Americans get screwed. That's n…
+## RT @AP: BREAKING: Trump vows to stand by campaign manager charged with battery, says he does not discard people.
+## RT @AP: BREAKING: Trump vows to stand by campaign manager charged with battery, says he does not discard people.
+## RT @urfavandtrump: RT for Jerrie (Little Mix)
+## Fav for Donald Trump https://t.co/nEVxElW6iG
+## RT @urfavandtrump: RT for Jerrie (Little Mix)
+## Fav for Donald Trump https://t.co/nEVxElW6iG
+## RT @NoahCRothman: When Walker was fighting for reforms, Trump was defending unions and collective bargaining privileges https://t.co/e1UWNN…
+## RT @RedheadAndRight: Report: Secret Service Says Michelle Fields Touched Trump https://t.co/c5c2sD8VO2
+## 
+## This is the only article you will n…
+## RT @AIIAmericanGirI: VIDEO=&gt; Anti-Trump Protester SLUGS Elderly Trump Supporter in the Face
+## https://t.co/GeEryMDuDY
+## RT @NoahCRothman: When Walker was fighting for reforms, Trump was defending unions and collective bargaining privileges https://t.co/e1UWNN…
+## RT @JusticeRanger1: @realDonaldTrump @Pudingtane @DanScavino @GOP @infowars @EricTrump 
+## URGENT PUBLIC TRUMP ALERT:
+## COVERT KILL MEANS https:…
+## RT @AIIAmericanGirI: VIDEO=&gt; Anti-Trump Protester SLUGS Elderly Trump Supporter in the Face
+## https://t.co/GeEryMDuDY
+## RT @RedheadAndRight: Report: Secret Service Says Michelle Fields Touched Trump https://t.co/c5c2sD8VO2
+## 
+## This is the only article you will n…
+## RT @JusticeRanger1: @realDonaldTrump @Pudingtane @DanScavino @GOP @infowars @EricTrump 
+## URGENT PUBLIC TRUMP ALERT:
+## COVERT KILL MEANS https:…
+## RT @Schneider_CM: Trump says nobody had ever heard of executive orders before Obama started signing them. Never heard of the Emancipation P…
+## RT @RonBasler1: @DavidWhitDennis @realDonaldTrump @tedcruz 
+## 
+## CRUZ SCREWS HOOKERS
+## 
+## CRUZ / CLINTON
+## RT @DonaldsAngel: Former Ms. WI just said that she is terminally ill but because of Trump pageant, her 7 yr. old son has his college educat…
+## RT @Schneider_CM: Trump says nobody had ever heard of executive orders before Obama started signing them. Never heard of the Emancipation P…
+## RT @DonaldsAngel: Former Ms. WI just said that she is terminally ill but because of Trump pageant, her 7 yr. old son has his college educat…
+## RT @Dodarey: @DR8801 @SykesCharlie Charlie, let's see you get a straight "yes" or "no" answer from Cruz a/b being unfaithful to his wife @T…
+## RT @RonBasler1: @DavidWhitDennis @realDonaldTrump @tedcruz 
+## 
+## CRUZ SCREWS HOOKERS
+## 
+## CRUZ / CLINTON
+## RT @RockCliffOne: Remember when the idea of a diabolical moron holding the world hostage was an idea for a funny movie? #Trump #GOP https:/…
+## RT @HillaryClinton: "Every day, another Republican bemoans the rise of Donald Trump... but [he] didn’t come out of nowhere." —Hillary
+## https…
+## RT @Dodarey: @DR8801 @SykesCharlie Charlie, let's see you get a straight "yes" or "no" answer from Cruz a/b being unfaithful to his wife @T…
+## RT @HillaryClinton: "Every day, another Republican bemoans the rise of Donald Trump... but [he] didn’t come out of nowhere." —Hillary
+## https…
+## RT @RockCliffOne: Remember when the idea of a diabolical moron holding the world hostage was an idea for a funny movie? #Trump #GOP https:/…
+## RT @immigrant4trump: @immigrant4trump msm, cable news attacking trump all day, from 8am to 10pm today, then the reruns come on, repeating t…
+## RT @immigrant4trump: @immigrant4trump msm, cable news attacking trump all day, from 8am to 10pm today, then the reruns come on, repeating t…
+## RT @GlendaJazzey: Donald Trump’s Campaign Financing Dodge, @rrotunda https://t.co/L8flI4lswG via @VerdictJustia
+## RT @TUSK81: LOUDER FOR THE PEOPLE IN THE BACK https://t.co/hlPVyNLXzx
+## RT @loopzoop: Well...put it back https://t.co/8Yb7BDT5VM
+## RT @claytoncubitt: Stop asking Bernie supporters if they’ll vote for Hillary against Trump. We got a plan to beat Trump already. Called Ber…
+## RT @akaMaude13: Seriously can't make this up. What a joke. #NeverTrump  https://t.co/JkTx6mdRgC
 ```
 </div>
 
@@ -1218,7 +1508,8 @@ for tweet in res_list:
 <li>Add a <code>try</code> block so that when the function is called with the correct arguments, it processes the DataFrame and returns a dictionary of results.</li>
 <li>Add an <code>except</code> block so that when the function is called incorrectly, it displays the following error message: <code>'The DataFrame does not have a ' + col_name + ' column.'</code>.</li>
 <div>
-```{python}
+
+```python
 # Define count_entries()
 def count_entries(df, col_name='lang'):
     """Return a dictionary with counts of
@@ -1255,6 +1546,10 @@ result1 = count_entries(tweets_df, 'lang')
 # Print result1
 print(result1)
 ```
+
+```
+## {'en': 97, 'et': 1, 'und': 2}
+```
 </div>
 
 <p class="">Great work!</p>
@@ -1273,7 +1568,8 @@ print(result1)
 
 <li>Print <code>result1</code>. This has been done for you, so hit 'Submit Answer' to check out the result. In the next exercise, you'll see that it raises the necessary <code>ValueErrors</code>.</li>
 <div>
-```{python}
+
+```python
 # Define count_entries()
 def count_entries(df, col_name='lang'):
     """Return a dictionary with counts of
@@ -1307,6 +1603,10 @@ result1 = count_entries(tweets_df, 'lang')
 
 # Print result1
 print(result1)
+```
+
+```
+## {'en': 97, 'et': 1, 'und': 2}
 ```
 </div>
 
