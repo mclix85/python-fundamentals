@@ -498,7 +498,7 @@ plt.xticks(tick_val, tick_lab)
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f8eaae5bee0>, <matplotlib.axis.XTick object at 0x7f8eaae5ba30>, <matplotlib.axis.XTick object at 0x7f8eaae5b880>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7faf80bebdf0>, <matplotlib.axis.XTick object at 0x7faf80bebcd0>, <matplotlib.axis.XTick object at 0x7faf80be2730>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>
@@ -546,7 +546,7 @@ plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f8eaaafcb50>, <matplotlib.axis.XTick object at 0x7f8eaaafc2b0>, <matplotlib.axis.XTick object at 0x7f8eaab93cd0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7faf809fffa0>, <matplotlib.axis.XTick object at 0x7faf809ff580>, <matplotlib.axis.XTick object at 0x7faf80af6f10>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>
@@ -590,7 +590,7 @@ plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f8eaaa1e8e0>, <matplotlib.axis.XTick object at 0x7f8eaaa1ea30>, <matplotlib.axis.XTick object at 0x7f8eaaa1e730>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7faf7ec3a160>, <matplotlib.axis.XTick object at 0x7faf7ec3a340>, <matplotlib.axis.XTick object at 0x7faf7ec3ad30>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>
@@ -644,7 +644,7 @@ plt.xticks([1000,10000,100000], ['1k','10k','100k'])
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f8ea937eb20>, <matplotlib.axis.XTick object at 0x7f8ea937edc0>, <matplotlib.axis.XTick object at 0x7f8ea937e6a0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7faf7ec17520>, <matplotlib.axis.XTick object at 0x7faf7ec17970>, <matplotlib.axis.XTick object at 0x7faf7eb66d30>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>
@@ -680,7 +680,7 @@ plt.xticks([1000,10000,100000], ['1k','10k','100k'])
 ```
 
 ```
-## ([<matplotlib.axis.XTick object at 0x7f8eaaae74c0>, <matplotlib.axis.XTick object at 0x7f8eaaae7f70>, <matplotlib.axis.XTick object at 0x7f8eaad8c8e0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
+## ([<matplotlib.axis.XTick object at 0x7faf80bae8e0>, <matplotlib.axis.XTick object at 0x7faf80baea90>, <matplotlib.axis.XTick object at 0x7faf80baefd0>], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])
 ```
 </div>
 <div>

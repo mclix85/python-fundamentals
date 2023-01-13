@@ -49,6 +49,10 @@
 <li><a class="active" href="intermediate-python.html">Intermediate Python</a></li>
 <li><a class="" href="python-data-science-toolbox-part-1.html">Python Data Science Toolbox (Part 1)</a></li>
 <li><a class="" href="python-data-science-toolbox-part-2.html">Python Data Science Toolbox (Part 2)</a></li>
+<li class="book-part">Python programming</li>
+<li><a class="" href="writing-efficient-python-code.html">Writing Efficient Python Code</a></li>
+<li><a class="" href="writing-functions-in-python.html">Writing Functions in Python</a></li>
+<li><a class="" href="object-oriented-programming-in-python.html">Object-Oriented Programming in Python</a></li>
 </ul>
 
         <div class="book-extra">
@@ -563,7 +567,7 @@ As usual, display the plot with <code>plt.show()</code> after you’ve added the
 <span id="cb174-13"><a href="intermediate-python.html#cb174-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb174-14"><a href="intermediate-python.html#cb174-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Adapt the ticks on the x-axis</span></span>
 <span id="cb174-15"><a href="intermediate-python.html#cb174-15" aria-hidden="true" tabindex="-1"></a>plt.xticks(tick_val, tick_lab)</span></code></pre></div>
-<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7f8eaae5bee0&gt;, &lt;matplotlib.axis.XTick object at 0x7f8eaae5ba30&gt;, &lt;matplotlib.axis.XTick object at 0x7f8eaae5b880&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
+<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7faf80bebdf0&gt;, &lt;matplotlib.axis.XTick object at 0x7faf80bebcd0&gt;, &lt;matplotlib.axis.XTick object at 0x7faf80be2730&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
 </div>
 <div>
 <div class="sourceCode" id="cb176"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb176-1"><a href="intermediate-python.html#cb176-1" aria-hidden="true" tabindex="-1"></a><span class="co"># After customizing, display the plot</span></span>
@@ -607,7 +611,7 @@ Run the script to see how the plot changes.
 <span id="cb177-16"><a href="intermediate-python.html#cb177-16" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Life Expectancy [in years]'</span>)</span>
 <span id="cb177-17"><a href="intermediate-python.html#cb177-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'World Development in 2007'</span>)</span>
 <span id="cb177-18"><a href="intermediate-python.html#cb177-18" aria-hidden="true" tabindex="-1"></a>plt.xticks([<span class="dv">1000</span>, <span class="dv">10000</span>, <span class="dv">100000</span>],[<span class="st">'1k'</span>, <span class="st">'10k'</span>, <span class="st">'100k'</span>])</span></code></pre></div>
-<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7f8eaaafcb50&gt;, &lt;matplotlib.axis.XTick object at 0x7f8eaaafc2b0&gt;, &lt;matplotlib.axis.XTick object at 0x7f8eaab93cd0&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
+<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7faf809fffa0&gt;, &lt;matplotlib.axis.XTick object at 0x7faf809ff580&gt;, &lt;matplotlib.axis.XTick object at 0x7faf80af6f10&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
 </div>
 <div>
 <div class="sourceCode" id="cb179"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb179-1"><a href="intermediate-python.html#cb179-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the plot</span></span>
@@ -648,7 +652,7 @@ Change the <code>s</code> argument inside <a href="https://matplotlib.org/stable
 <span id="cb180-16"><a href="intermediate-python.html#cb180-16" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Life Expectancy [in years]'</span>)</span>
 <span id="cb180-17"><a href="intermediate-python.html#cb180-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'World Development in 2007'</span>)</span>
 <span id="cb180-18"><a href="intermediate-python.html#cb180-18" aria-hidden="true" tabindex="-1"></a>plt.xticks([<span class="dv">1000</span>, <span class="dv">10000</span>, <span class="dv">100000</span>],[<span class="st">'1k'</span>, <span class="st">'10k'</span>, <span class="st">'100k'</span>])</span></code></pre></div>
-<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7f8eaaa1e8e0&gt;, &lt;matplotlib.axis.XTick object at 0x7f8eaaa1ea30&gt;, &lt;matplotlib.axis.XTick object at 0x7f8eaaa1e730&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
+<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7faf7ec3a160&gt;, &lt;matplotlib.axis.XTick object at 0x7faf7ec3a340&gt;, &lt;matplotlib.axis.XTick object at 0x7faf7ec3ad30&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
 </div>
 <div>
 <div class="sourceCode" id="cb182"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb182-1"><a href="intermediate-python.html#cb182-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the plot</span></span>
@@ -704,7 +708,7 @@ Change the opacity of the bubbles by setting the <code>alpha</code> argument to 
 <span id="cb183-10"><a href="intermediate-python.html#cb183-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Life Expectancy [in years]'</span>)</span>
 <span id="cb183-11"><a href="intermediate-python.html#cb183-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'World Development in 2007'</span>)</span>
 <span id="cb183-12"><a href="intermediate-python.html#cb183-12" aria-hidden="true" tabindex="-1"></a>plt.xticks([<span class="dv">1000</span>,<span class="dv">10000</span>,<span class="dv">100000</span>], [<span class="st">'1k'</span>,<span class="st">'10k'</span>,<span class="st">'100k'</span>])</span></code></pre></div>
-<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7f8ea937eb20&gt;, &lt;matplotlib.axis.XTick object at 0x7f8ea937edc0&gt;, &lt;matplotlib.axis.XTick object at 0x7f8ea937e6a0&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
+<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7faf7ec17520&gt;, &lt;matplotlib.axis.XTick object at 0x7faf7ec17970&gt;, &lt;matplotlib.axis.XTick object at 0x7faf7eb66d30&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
 </div>
 <div>
 <div class="sourceCode" id="cb185"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb185-1"><a href="intermediate-python.html#cb185-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the plot</span></span>
@@ -736,7 +740,7 @@ Add <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.grid.ht
 <span id="cb186-7"><a href="intermediate-python.html#cb186-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Life Expectancy [in years]'</span>)</span>
 <span id="cb186-8"><a href="intermediate-python.html#cb186-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'World Development in 2007'</span>)</span>
 <span id="cb186-9"><a href="intermediate-python.html#cb186-9" aria-hidden="true" tabindex="-1"></a>plt.xticks([<span class="dv">1000</span>,<span class="dv">10000</span>,<span class="dv">100000</span>], [<span class="st">'1k'</span>,<span class="st">'10k'</span>,<span class="st">'100k'</span>])</span></code></pre></div>
-<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7f8eaaae74c0&gt;, &lt;matplotlib.axis.XTick object at 0x7f8eaaae7f70&gt;, &lt;matplotlib.axis.XTick object at 0x7f8eaad8c8e0&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
+<pre><code>## ([&lt;matplotlib.axis.XTick object at 0x7faf80bae8e0&gt;, &lt;matplotlib.axis.XTick object at 0x7faf80baea90&gt;, &lt;matplotlib.axis.XTick object at 0x7faf80baefd0&gt;], [Text(1000, 0, '1k'), Text(10000, 0, '10k'), Text(100000, 0, '100k')])</code></pre>
 </div>
 <div>
 <div class="sourceCode" id="cb188"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb188-1"><a href="intermediate-python.html#cb188-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Additional customizations</span></span>
@@ -4527,7 +4531,7 @@ Correct! Seems like you have a pretty high chance of winning the bet!
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Python Fundamenals</strong>" was written by Dat Tran. It was last built on 2023-01-09.</p>
+    <p>"<strong>Python Fundamenals</strong>" was written by Dat Tran. It was last built on 2023-01-13.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

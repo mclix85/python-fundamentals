@@ -1,7 +1,7 @@
 --- 
 title: "Python Fundamenals"
 author: "Dat Tran"
-date: "2023-01-09"
+date: "2023-01-13"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

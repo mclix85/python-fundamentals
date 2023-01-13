@@ -8,6 +8,10 @@ rmd_files: [
   "Intermediate-Python.Rmd",
   "Python-Data-Science-Toolbox-Part-1.Rmd",
   "Python-Data-Science-Toolbox-Part-2.Rmd",
+
+  "Writing-Efficient-Python-Code.Rmd",
+  "Writing-Functions-in-Python.Rmd",
+  "Object-Oriented-Programming-in-Python.Rmd",
  
 ]
 
